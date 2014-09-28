@@ -39,7 +39,7 @@ class ETPlugin_CustomJS extends ETPlugin{
 		}
 
 		$sender->data('CustomJSForm', $form);
-		return $this->getView('settings');
+		return $this->View('settings');
 	}
 
 }
